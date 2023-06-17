@@ -5,12 +5,13 @@ LRU Cache is a C++ implementation of a Least Recently Used (LRU) Cache data stru
 ### Follow these steps:
 1. Open a terminal or command prompt and navigate to the directory where you extracted the LRU Cache files.
 2. Compile the code using the following command:
-```bash
+```
 g++ lru_cache.cpp lru_cache_tests.cpp -o lru_cache_tests
+
 ```
 - This command compiles both lru_cache.cpp and lru_cache_tests.cpp files and creates an executable named lru_cache.
 3. Run the compiled executable using the following command:
-```bash
+```
 ./lru_cache_tests
 ```
 - This command executes the lru_cache program, which runs the unit tests for the LRU Cache implementation.
